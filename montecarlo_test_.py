@@ -1,11 +1,9 @@
 import unittest
 import pandas as pd
 
-from montecarlo import Die
+from Montecarlo.montecarlo import Die
 from Montecarlo.montecarlo import Game
 from Montecarlo.montecarlo import Analyzer
- 
-
 
 class MontecarloTestCase(unittest.TestCase):
     
@@ -120,4 +118,4 @@ class MontecarloTestCase(unittest.TestCase):
         self.assertEqual(expected_index,actual_index)
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main(verbosity=3)
