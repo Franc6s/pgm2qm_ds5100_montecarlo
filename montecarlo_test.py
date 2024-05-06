@@ -2,8 +2,8 @@ import unittest
 import pandas as pd
 
 from montecarlo import Die
-from montecarlo import Game
-from montecarlo import Analyzer
+from Montecarlo.montecarlo import Game
+from Montecarlo.montecarlo import Analyzer
  
 
 
