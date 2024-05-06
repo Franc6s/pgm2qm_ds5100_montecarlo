@@ -7,5 +7,5 @@ setup(name = 'Monte Carlo Simulator',
       author = 'Francis Mangala',
       author_email = 'pgm2qm@virginia.edu',
       license = 'MIT',
-      packages = ['Montercalo Sim'],
+      packages = ['Montecarlo'],
       install_requires = ['numpy', 'pandas', 'random'])
