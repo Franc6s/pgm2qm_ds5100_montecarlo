@@ -1,9 +1,9 @@
 import unittest
 import pandas as pd
 
-from Montecarlo.montecarlo import Die
-from Montecarlo.montecarlo import Game
-from Montecarlo.montecarlo import Analyzer
+from Montecarlo.montecarlo_ import Die
+from Montecarlo.montecarlo_ import Game
+from Montecarlo.montecarlo_ import Analyzer
 
 class MontecarloTestCase(unittest.TestCase):
     
